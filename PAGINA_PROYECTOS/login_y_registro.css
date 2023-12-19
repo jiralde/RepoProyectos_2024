@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.formulario-container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.ubi {
+    margin-bottom: 10px;
+}
+
+.largo {
+    width: 100%;
+}
