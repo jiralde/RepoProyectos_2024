@@ -9,6 +9,8 @@ pygame.init()#inisialisa pygame
 
 ventana = pygame.display.set_mode((600, 400))#crea una ventana
 
+ventana2 = pygame.display.set_mode((600, 400))#crea una ventana
+
 pygame.display.set_caption('minesspearwere')
 
 while True:

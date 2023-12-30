@@ -9,7 +9,8 @@ En este repositorio se encontraran proyectos que se realizaran en el transcurso 
 
 <div>    <!--  Segundo Proyecto  -->
   <h2 align="center"> Segundo proyecto:  </h2>
-  <p> El proyecto trata de crear al juego MinesWeper</p>
+  <p> El proyecto trata de crear al juego RPG </p>
+  <p>Echo para practicar poo en python</P>
 </div>
 
 
