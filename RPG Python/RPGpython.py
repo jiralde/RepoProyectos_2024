@@ -3,36 +3,41 @@ import pygame
 import sys
 from pygame.locals import *
 
-class personaje(ABC):
-    @abstractclassmethod
-    def __init__(self,nombre,vida,daño):
-        self.nombre = nombre
-        self.vida = vida
-        self.daño = daño
-    @abstractclassmethod
-    def pegar(self):
-        self.vida = self.vida - self.daño
 
-class elayer(personaje):#hereda de personaje
-    def __init__(self,nombre,vida,daño):
-        super().__init__(nombre,vida,daño)
+WHITE = (255,255,255)
+GREEN = (0,255,93)
+BLUE = (0,39,255)
+RED = (255,0,0)
+BLACK = (0,0,0)
 
 
-class enemigo(personaje):#hereda de personaje
-    def __init__(self,nombre,vida,daño):
-        super().__init__(nombre,vida,daño)
+def main():
+    pass
 
 
-  
-pygame.init()
-Display = pygame.display.set_mode((600,400))
-pygame.display.set_caption("Prometec")
+pygame.init
+window = pygame.display.set_mode((600,600))
+pygame.display.set_caption("RPG game")
+
+window.fill(WHITE)
+
+rectangulo1 = pygame.draw.rect(window, RED, (300, 100, 100, 50))
+print(rectangulo1)
+
+
+linea1 = pygame.draw.line(window,GREEN, (600,600) , (0,0), 10)
+print(linea1)
+
+circulo = pygame.draw.circle(window,BLACK, (300,300), 100, 10)
+print(circulo)
+
+elipse = pygame.draw.ellipse(window,BLACK, (100,100,40,80), 10)
 
 while True:
-    for evento in pygame.event.get():
-        if evento.type == pygame.QUIT:
+    for event in pygame.event.get():
+        if event.type == QUIT:
             pygame.quit()
             sys.exit()
-Pygame.display.upadate()
 
+    pygame.display.update()
 
