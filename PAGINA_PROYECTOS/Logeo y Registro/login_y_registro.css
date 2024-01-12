@@ -21,3 +21,22 @@ body {
 .largo {
     width: 100%;
 }
+
+.fondo-registro{
+background-color: rgb(145, 145, 145);
+padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 14%;
+}
+
+#color-buton{
+    color: rgb(0, 0, 0);
+text-decoration: none;
+border: 0cm;
+background-color: green;
+padding-right: 125px;
+padding-bottom: 3px;
+}
+
