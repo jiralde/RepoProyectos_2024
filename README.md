@@ -18,3 +18,5 @@ En este repositorio se encontraran proyectos que se realizaran en el transcurso 
   <h2 align="center"> Tercer proyecto:  </h2>
   <p> El proyecto trata de una bitacora de lectura  </p>
 </div>
+
+<p>Cundo un proyecto se termine se creara un repositorio unico para ese proyecto</p>
