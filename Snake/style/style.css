@@ -1,0 +1,12 @@
+*{
+    background-color: cornflowerblue;
+
+}
+
+#ventana{
+    background-color: rgba(128, 255, 0, 0.745);
+    border-radius: 1%;
+    width: 600px;
+    height: 600px;
+
+}
