@@ -1,6 +1,7 @@
 *{
     background-color: cornflowerblue;
-
+    margin: 0%;
+    padding: 0%;
 }
 
 #ventana{
@@ -8,5 +9,4 @@
     border-radius: 1%;
     width: 600px;
     height: 600px;
-
 }
