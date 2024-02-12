@@ -6,6 +6,8 @@
 
 #ventana{
     background-color: rgba(128, 255, 0, 0.745);
+    margin: auto;
+    margin-top: 10%;
     border-radius: 1%;
     width: 600px;
     height: 600px;
