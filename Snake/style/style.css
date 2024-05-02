@@ -11,6 +11,5 @@
     border-radius: 1%;
     width: 600px;
     height: 600px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
 }
